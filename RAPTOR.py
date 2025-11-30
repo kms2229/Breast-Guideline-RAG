@@ -9,7 +9,8 @@ import umap
 
 # Gaussian Mixture Model for clustering
 from sklearn.mixture import GaussianMixture
-from langchain.prompts import ChatPromptTemplate
+#from langchain.prompts import ChatPromptTemplate
+from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.output_parsers import StrOutputParser
 import streamlit as st
 
